@@ -1,0 +1,29 @@
+@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+
+body{
+  background:rgb(245, 244, 244);
+}
+.Home{
+  display: flex;
+}
+i{
+  color:#FDBA12;
+}
+.ion-ios-search-strong{
+  color:#157AB1;
+}
+.ion-arrow-down-b{
+  color:#157AB1;
+  margin:auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .Home{
+    flex-direction: column;
+  }
+  .cardStyle{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
